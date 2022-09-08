@@ -1,0 +1,60 @@
+:root {
+    --dsgray:darkslategray;
+    --purple:purple;
+    --teal:teal;
+    --lstblue:lightsteelblue;
+    --white:white;
+    --seagrn:seagreen;
+    --tan:tan;
+}
+
+.header {
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: var(--teal);
+}
+
+nav {
+    display: flex;
+    color:var(--purple)
+}
+
+nav a {
+    padding: 10px;
+}
+nav a:hover {
+    background-color: var(--tan);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    background-color: var(--dsgray);
+}
+
+h1 {
+    font-size: 200%;
+    padding: 15px;
+    margin: 5%;
+}
+
+.card {
+    box-sizing: border-box;
+    text-align: center;
+    justify-content: center;
+    border-style: ridge;
+    color: var(--white);
+    background-color: var(--lstblue);
+}
+
+div p {
+    padding: 15px;
+    margin:5%;
+}
+
+#button {
+    padding: 10px;
+    margin: 3%;
+    background-color: var(--purple);
+}
